@@ -10,6 +10,7 @@ module.exports = {
       container: "1440px",
       contentContainer: "1140px",
       containerSmall: "1024px",
+      containerxs: "768px",
     },
     extend: {
       colors: {

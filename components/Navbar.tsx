@@ -26,7 +26,7 @@ const Navbar = () => {
             </li>
             <li className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300">
               <span className="text-textGreen">03.</span>
-              Work
+              Project
             </li>
             <li className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300">
               <span className="text-textGreen">04.</span>

@@ -5,7 +5,7 @@ import { AiFillThunderbolt } from "react-icons/ai";
 
 const About = () => {
   return (
-    <div className="max-w-containerSmall mx-auto py-24 flex flex-col gap-8 px-4">
+    <div className="max-w-containerSmall mx-auto py-32 flex flex-col gap-8 px-4">
       <SectionTitle title="About Me" titleNo="01" />
       <div className="flex gap-16">
         <div className="w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
@@ -70,6 +70,18 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Express.js
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              MongoDB
+            </li>
+            <li className="flex items-center gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Tailwindcss
             </li>
           </ul>
         </div>

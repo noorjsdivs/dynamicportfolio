@@ -1,7 +1,10 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
+import Contact from "@/components/Contact";
+import Experience from "@/components/Experience";
 import LeftSide from "@/components/LeftSide";
 import Navbar from "@/components/Navbar";
+import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
 import Head from "next/head";
 
@@ -23,6 +26,9 @@ export default function Home() {
           <div className="w-full h-[88vh] overflow-y-scroll scrollbarHide">
             <Banner />
             <About />
+            <Experience />
+            <Projects />
+            <Contact />
           </div>
           <div className="w-32 h-full">
             <RightSide />
