@@ -10,9 +10,9 @@ const About = () => {
       <div className="flex gap-16">
         <div className="w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Brittany and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2012
-            when I decided to try editing custom Tumblr themes — turns out
+            Hello! My name is Noor Mohammad and I enjoy creating things that
+            live on the internet. My interest in web development started back in
+            2012 when I decided to try editing custom Tumblr themes — turns out
             hacking together a custom reblog button taught me a lot about HTML &
             CSS!
           </p>
