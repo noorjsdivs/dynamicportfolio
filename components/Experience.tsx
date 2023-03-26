@@ -51,7 +51,7 @@ const Experience = () => {
     setWorkAmazon(true);
   };
   return (
-    <div className="max-w-containerxs mx-auto py-24">
+    <section id="experience" className="max-w-containerxs mx-auto py-24">
       <SectionTitle title="Where I have Worked" titleNo="02" />
       <div className="w-full mt-10 flex gap-16">
         <ul className="w-32 flex flex-col">
@@ -112,7 +112,7 @@ const Experience = () => {
         {workSplash && <Splash />}
         {workAmazon && <Amazon />}
       </div>
-    </div>
+    </section>
   );
 };
 

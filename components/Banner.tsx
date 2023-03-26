@@ -1,8 +1,9 @@
-import React from "react";
-
 const Banner = () => {
   return (
-    <div className="max-w-contentContainer mx-auto py-24 flex flex-col gap-8 px-4">
+    <section
+      id="home"
+      className="max-w-contentContainer mx-auto py-24 flex flex-col gap-8 px-4"
+    >
       <h3 className="text-lg font-titleFont tracking-wide text-textGreen">
         Hi, my name is
       </h3>
@@ -24,7 +25,7 @@ const Banner = () => {
       <button className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">
         Check out my project!
       </button>
-    </div>
+    </section>
   );
 };
 

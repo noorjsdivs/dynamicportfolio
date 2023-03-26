@@ -5,7 +5,10 @@ import { AiFillThunderbolt } from "react-icons/ai";
 
 const About = () => {
   return (
-    <div className="max-w-containerSmall mx-auto py-32 flex flex-col gap-8 px-4">
+    <section
+      id="about"
+      className="max-w-containerSmall mx-auto py-32 flex flex-col gap-8 px-4"
+    >
       <SectionTitle title="About Me" titleNo="01" />
       <div className="flex gap-16">
         <div className="w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
@@ -99,7 +102,7 @@ const About = () => {
           <div className="w-full h-80 border-2 border-textGreen rounded-lg group-hover:-translate-x-2 group-hover:-translate-y-2 transition-transform duration-300"></div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

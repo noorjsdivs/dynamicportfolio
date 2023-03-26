@@ -1,6 +1,9 @@
 const Contact = () => {
   return (
-    <div className="max-w-contentContainer mx-auto py-32 flex flex-col gap-4 items-center justify-center">
+    <section
+      id="contact"
+      className="max-w-contentContainer mx-auto py-32 flex flex-col gap-4 items-center justify-center"
+    >
       <p className="font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide">
         04. What’s Next?
       </p>
@@ -13,7 +16,7 @@ const Contact = () => {
       <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
         Say Hello
       </button>
-    </div>
+    </section>
   );
 };
 
