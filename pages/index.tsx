@@ -20,7 +20,7 @@ export default function Home() {
       <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight  overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
         <Navbar />
         <div className="w-full h-[88vh] flex gap-20 justify-between">
-          <div className="w-32 h-full fixed left-0 bottom-0">
+          <div className="hidden lgl:inline-flex w-32 h-full fixed left-0 bottom-0">
             <LeftSide />
           </div>
           <div className="max-w-container mx-auto h-[88vh]">
@@ -30,7 +30,7 @@ export default function Home() {
             <Projects />
             <Contact />
           </div>
-          <div className="w-32 h-full fixed right-0 bottom-0">
+          <div className="hidden lgl:inline-flex w-32 h-full fixed right-0 bottom-0">
             <RightSide />
           </div>
         </div>

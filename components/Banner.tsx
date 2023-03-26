@@ -2,14 +2,16 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="max-w-contentContainer mx-auto py-24 flex flex-col gap-8 px-4"
+      className="max-w-contentContainer mx-auto py-10 lgl:py-24 flex flex-col gap-4 lgl:gap-8 px-4 lgl:px-32 xl:px-4"
     >
       <h3 className="text-lg font-titleFont tracking-wide text-textGreen">
         Hi, my name is
       </h3>
-      <h1 className="text-6xl font-titleFont font-semibold flex flex-col">
+      <h1 className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col">
         Noor Mohammad.
-        <span className="text-textDark mt-4">I build things for the web.</span>
+        <span className="text-textDark text-2xl mt-2 lgl:mt-4">
+          I build things for the web.
+        </span>
       </h1>
       <p className="text-base max-w-[650px] text-textDark font-medium">
         I am a web developer with 4+ years of experience in React. I have a
