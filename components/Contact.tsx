@@ -13,9 +13,11 @@ const Contact = () => {
         is always open. Whether you have a question or just want to say hi, I’ll
         try my best to get back to you!
       </p>
-      <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
-        Say Hello
-      </button>
+      <a href="mailto:noor.jsdivs@gmail.com">
+        <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
+          Say Hello
+        </button>
+      </a>
     </section>
   );
 };

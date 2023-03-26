@@ -7,7 +7,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Projects = () => {
   return (
-    <section id="project" className="w-full py-24">
+    <section id="project" className="max-w-container px-20 py-24">
       <SectionTitle title="Some Things I have Built" titleNo="03" />
       {/* ============ project One Start here ================ */}
       <div className="mt-16 flex gap-6">

@@ -38,7 +38,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300"
+              className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
               href="#about"
               onClick={handleScroll}
             >
