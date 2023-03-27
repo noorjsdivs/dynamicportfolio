@@ -1,19 +1,35 @@
+import { motion } from "framer-motion";
 const Banner = () => {
   return (
     <section
       id="home"
-      className="max-w-contentContainer mx-auto py-10 lgl:py-24 flex flex-col gap-4 lgl:gap-8 px-4 lgl:px-32 xl:px-4"
+      className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
     >
-      <h3 className="text-lg font-titleFont tracking-wide text-textGreen">
+      <motion.h3
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+        className="text-lg font-titleFont tracking-wide text-textGreen"
+      >
         Hi, my name is
-      </h3>
-      <h1 className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col">
+      </motion.h3>
+      <motion.h1
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.7 }}
+        className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
+      >
         Noor Mohammad.
         <span className="text-textDark text-2xl mt-2 lgl:mt-4">
           I build things for the web.
         </span>
-      </h1>
-      <p className="text-base max-w-[650px] text-textDark font-medium">
+      </motion.h1>
+      <motion.p
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+        className="text-base md:max-w-[650px] text-textDark font-medium"
+      >
         I am a web developer with 4+ years of experience in React. I have a
         strong foundation in front-end & back-end development and am skilled in
         creating user-friendly and responsive web applications using React and
@@ -23,10 +39,17 @@ const Banner = () => {
           <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
         </span>
         .
-      </p>
-      <button className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300">
-        Check out my project!
-      </button>
+      </motion.p>
+      <a href="https://github.com/noorjsdivs" target="_blank">
+        <motion.button
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+        >
+          Check out my project!
+        </motion.button>
+      </a>
     </section>
   );
 };
