@@ -20,7 +20,7 @@ const Banner = () => {
         className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
       >
         Noor Mohammad.
-        <span className="text-textDark text-2xl mt-2 lgl:mt-4">
+        <span className="text-textDark mt-2 lgl:mt-4">
           I build things for the web.
         </span>
       </motion.h1>
