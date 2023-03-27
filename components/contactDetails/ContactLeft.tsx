@@ -8,11 +8,11 @@ const ContactLeft = () => {
     <div className="w-full lgl:w-1/3 font-titleFont flex flex-col gap-6">
       <p className="text-4xl font-semibold text-textLight">Get in touch!</p>
       <p className="text-xl md:text-3xl font-semibold bg-clip-text bg-gradient-to-l from-textGreen via-reactYellowLight to-green-400 text-transparent">
-        Let's talk about your project
+        Let us talk about your project
       </p>
       <p className="font-bodyFont text-base text-gray-300 font-medium">
         Thinking about a new project, a problem to solve, or just want to
-        connect? Let's do it!
+        connect? Let us do it!
       </p>
       <p className="font-bodyFont text-base text-gray-300 font-medium">
         Use the form on this page or get in touch by other means.
