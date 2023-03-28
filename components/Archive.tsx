@@ -11,7 +11,7 @@ const Archive = () => {
           view the archive
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
           title="Educare Engligh Learning Academy"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
