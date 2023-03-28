@@ -1,5 +1,4 @@
-import { FaRegFolder } from "react-icons/fa";
-import { RxOpenInNewWindow } from "react-icons/rx";
+import ArchiveCard from "./ArchiveCard";
 
 const Archive = () => {
   return (
@@ -12,27 +11,49 @@ const Archive = () => {
           view the archive
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-10 mt-10">
-        <div className="w-full h-80 rounded-lg bg-[#112240] p-7 flex flex-col justify-center gap-6 group">
-          <div className="flex justify-between items-center">
-            <FaRegFolder className="text-4xl text-textGreen" />
-            <RxOpenInNewWindow className="text-2xl hover:text-textGreen" />
-          </div>
-          <div>
-            <h2 className="text-xl font-titleFont font-semibold tracking-wide group-hover:text-textGreen">
-              Educare Engligh Learning Academy
-            </h2>
-            <p className="text-sm mt-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis.
-            </p>
-          </div>
-          <ul className="text-sm text-textDark flex items-center gap-4">
-            <li>Reactjs</li>
-            <li>Tailwind CSS</li>
-            <li>getform.io</li>
-          </ul>
-        </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-10">
+        <ArchiveCard
+          title="Educare Engligh Learning Academy"
+          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            laudantium velit qui sint non, voluptates quo a veritatis."
+          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+          link="https://www.educareenglishlearningacademy.com/"
+        />
+        <ArchiveCard
+          title="Cyber Security Blog with live comments section"
+          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            laudantium velit qui sint non, voluptates quo a veritatis."
+          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+          link="https://www.noormohmmad.com/"
+        />
+        <ArchiveCard
+          title="ReactBD web development company"
+          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            laudantium velit qui sint non, voluptates quo a veritatis."
+          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+          link="https://reactbd.com/"
+        />
+        <ArchiveCard
+          title="Amazon Clone with login, cart-option and payment intrigation."
+          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            laudantium velit qui sint non, voluptates quo a veritatis."
+          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+          link="https://amazonclone.reactbd.com/"
+        />
+        <ArchiveCard
+          title="Dynamic Responsive Portfolio"
+          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            laudantium velit qui sint non, voluptates quo a veritatis."
+          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+          link="https://portfolioone.reactbd.com/"
+        />
+        <ArchiveCard
+          title="OREBI e-commerce Shopping store"
+          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+            laudantium velit qui sint non, voluptates quo a veritatis."
+          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+          link="https://orebishopping.reactbd.com/"
+        />
       </div>
     </div>
   );

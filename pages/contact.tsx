@@ -2,6 +2,8 @@ import ContactLeft from "@/components/contactDetails/ContactLeft";
 import ContactNav from "@/components/contactDetails/ContactNav";
 import FormTitle from "@/components/contactDetails/FormTitle";
 import ServicesInput from "@/components/contactDetails/ServicesInput";
+import ContactFooter from "@/components/ContactFooter";
+import Footer from "@/components/Footer";
 
 const contact = () => {
   return (
@@ -107,6 +109,7 @@ const contact = () => {
           </div>
         </div>
       </div>
+      <ContactFooter />
     </div>
   );
 };

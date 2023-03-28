@@ -5,7 +5,7 @@ import React from "react";
 
 const ContactNav = () => {
   return (
-    <div className="max-w-container mx-auto py-2 flex items-center justify-between">
+    <div className="max-w-container mx-auto py-2 flex items-center justify-between sticky top-0 z-50 bg-bodyColor">
       <Link href="/">
         <Image className="w-20" src={logo} alt="logo" />
       </Link>
