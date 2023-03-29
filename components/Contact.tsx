@@ -16,11 +16,11 @@ const Contact = () => {
         try my best to get back to you!
       </p>
 
-      <Link href="/contact">
+      <a href="mailto:noor.jsdivs@gmail.com">
         <button className="w-40 h-14 border border-textGreen mt-6 font-titleFont text-sm text-textGreen tracking-wider rounded-md hover:bg-hoverColor duration-300">
           Say Hello
         </button>
-      </Link>
+      </a>
     </section>
   );
 };
