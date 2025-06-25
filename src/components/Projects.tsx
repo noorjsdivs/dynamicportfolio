@@ -1,5 +1,3 @@
-import { amazonImg, cyberImg, noorShop } from "@/public/assets";
-import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
@@ -7,7 +5,7 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 
 const Projects = () => {
   return (
-    <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
+    <section id="project" className="lg:px-20 py-24">
       <SectionTitle title="Some Things I have Built" titleNo="03" />
       {/* ============ project One Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
@@ -18,15 +16,15 @@ const Projects = () => {
             target="_blank"
           >
             <div>
-              <Image
+              <img
                 className="w-full h-full object-contain"
-                src={amazonImg}
+                src={"/assets/images/amazonImg.png"}
                 alt="amazonImg"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lg:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textGreen text-sm tracking-wide">
                 Featured Project
@@ -76,13 +74,13 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://www.noormohmmad.com/"
+            href="https://noormohammad.reactbd.com/"
             target="_blank"
           >
             <div>
-              <Image
+              <img
                 className="w-full h-full object-contain"
-                src={cyberImg}
+                src={"/assets/images/cyberBlog.png"}
                 alt="cyberImg"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
@@ -144,9 +142,9 @@ const Projects = () => {
             target="_blank"
           >
             <div>
-              <Image
+              <img
                 className="w-full h-full object-contain"
-                src={noorShop}
+                src={"/assets/images/noorShop.png"}
                 alt="noorShop"
               />
               <div className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>

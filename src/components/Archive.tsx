@@ -6,7 +6,7 @@ const Archive = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <div className="max-w-contentContainer mx-auto px-4 py-24">
+    <div className="py-24">
       <div className="w-full flex flex-col items-center">
         <h2 className="text-3xl font-titleFont font-semibold">
           Other Noteworthy Projects
@@ -15,48 +15,48 @@ const Archive = () => {
           view the archive
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lg:px-10">
         <ArchiveCard
           title="Educare Engligh Learning Academy"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
+          link="https://www.reactbd.com/projects"
         />
         <ArchiveCard
           title="Cyber Security Blog with live comments section"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          link="https://www.reactbd.com/projects"
         />
         <ArchiveCard
           title="ReactBD web development company"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
+          link="https://www.reactbd.com/projects"
         />
         <ArchiveCard
           title="Amazon Clone with login, cart-option and payment intrigation."
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://amazonclone.reactbd.com/"
+          link="https://www.reactbd.com/projects"
         />
         <ArchiveCard
           title="JSON data (example data api for test projects)"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
               laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
+          link="https://www.reactbd.com/projects"
         />
         <ArchiveCard
           title="Dynamic Responsive Portfolio"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://portfolioone.reactbd.com/"
+          link="https://www.reactbd.com/projects"
         />
 
         {showMore && (
@@ -71,7 +71,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-                link="https://orebishopping.reactbd.com/"
+                link="https://www.reactbd.com/projects"
               />
             </motion.div>
             <motion.div
@@ -84,7 +84,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "redux-toolkit"]}
-                link="https://noorshop.netlify.app/"
+                link="https://www.reactbd.com/projects"
               />
             </motion.div>
             <motion.div
@@ -97,7 +97,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
-                link="https://my-blog-delta-eight.vercel.app/"
+                link="https://www.reactbd.com/projects"
               />
             </motion.div>
             <motion.div
@@ -110,7 +110,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Nextjs", "react-slick", "redux-toolkit"]}
-                link="https://shoppersyt.vercel.app/"
+                link="https://www.reactbd.com/projects"
               />
             </motion.div>
             <motion.div
@@ -123,7 +123,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://portfoliotwo.reactbd.com/"
+                link="https://www.reactbd.com/projects"
               />
             </motion.div>
             <motion.div
@@ -136,7 +136,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://portfoliothree.reactbd.com/"
+                link="https://www.reactbd.com/projects"
               />
             </motion.div>
             <motion.div
@@ -149,7 +149,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://bazar.reactbd.com/"
+                link="https://www.reactbd.com/projects"
               />
             </motion.div>
             <motion.div
@@ -162,7 +162,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Nextjs", "Tailwind CSS", "next-auth"]}
-                link="https://blog101.reactbd.com/"
+                link="https://www.reactbd.com/projects"
               />
             </motion.div>
             <motion.div
@@ -175,7 +175,7 @@ const Archive = () => {
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://youtubetodo.vercel.app/"
+                link="https://www.reactbd.com/projects"
               />
             </motion.div>
           </>

@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: Switzer, system-ui, sans-serif;
+
+  --radius-4xl: 2rem;
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-bodyColor: #0a192f;
+  --color-textGreen: #64ffda;
+  --color-textLight: #ccd6f6;
+  --color-textDark: #8892b0;
+  --color-hoverColor: rgba(100, 255, 218, 0.1);
+
+  --background-image-footer-bg: url("/background/footer-bg.jpg");
+}

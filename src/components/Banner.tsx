@@ -1,10 +1,7 @@
 import { motion } from "framer-motion";
 const Banner = () => {
   return (
-    <section
-      id="home"
-      className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
-    >
+    <section id="home" className="py-10 md:py-24 flex flex-col gap-4 lg:gap-8">
       <motion.h3
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -17,10 +14,10 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
+        className="text-4xl lg:text-6xl font-titleFont font-semibold flex flex-col"
       >
         Noor Mohammad.
-        <span className="text-textDark mt-2 lgl:mt-4">
+        <span className="text-textDark mt-2 lg:mt-4">
           I build things for the web.
         </span>
       </motion.h1>
